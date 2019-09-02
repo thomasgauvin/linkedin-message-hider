@@ -1,0 +1,14 @@
+{
+  "name": "LinkedIn message hider",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": ["activeTab", "tabs", "declarativeContent", "storage"],
+  "content_scripts": [
+  {
+    "matches" : ["<all_urls>"],
+	"js": ["jquerymin.js","content.js"]
+  }
+  ]
+  ,
+  "manifest_version": 2
+}
